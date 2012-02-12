@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="es-CO">
+  <head>
+  <meta charset="UTF-8">
+  <meta property="og:title" content="Altagracia.co | Regístrese para recibir premios y tragos GRATIS!" />
+  <meta property="og:type" content="bar" />
+  <meta property="og:url" content="http://altagracia.co" />
+  <meta property="og:image" content="http://altagracia.co/img/logo.png" />
+  <meta property="og:site_name" content="Altagracia.co" />
+  <meta property="fb:admins" content="741061761" />
+  <meta http-equiv="keywords" content="Altagracia bar shots parque lleras medellin colombia">
+  <meta http-equiv="description" content="Salud, Vida & Altagracia | Altagracia.co">
+  <link rel="shortcut icon" href="http://altagracia.co/img/favicon.ico">
+  <link rel="apple-touch-icon" href="http://altagracia.co/img/apple-touch-icon.png">
+
+
+    <title>Salud, Vida & Altagracia | Altagracia.co</title>
+    
+    <link href="js/alta-form.css" media="screen" rel="stylesheet"/>
+    <link href="js/alta.uni-form.css" title="Default Style" media="screen" rel="stylesheet"/>
+    <link href="js/altagracia.css" media="screen" rel="stylesheet"/>
+    <link href="js/dateinput.css" media="screen" rel="stylesheet"/>
+    
+    <!-- Scripts & CSS -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.altagracia.co/js/uni-form-validation.jquery.js" charset="utf-8"></script>
+    <script src="js/modernizr-1.7.min.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+    
+    
+<script>
+      $(function(){
+        $('form.uniForm').uniform({
+          prevent_submit : true
+        });
+      });
+    </script>
+    
+<script> 
+    $(document).ready(function() {
+    $(":date").dateinput({ selectors: true, yearRange: [-50, 1] }).data("dateinput").show();
+}); </script>
+
+
+  </head>
+
+  <body>
+  <div class="wraper">
+  <div id="logotipo"> <a href="http://altagracia.co"><img src="img/logo.png" alt="Salud, Vida & Altagracia"/></a>    </div>
+    
+    <form action="http://altagracia.co/submit.php" class="uniForm" id="contact-form" name="contact-form" method="post">
+      
+      <fieldset>
+      	<div align="right"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://altagracia.co" data-text="Altagracia.co | Regístrese para recibir premios y tragos GRATIS!" data-count="none" data-lang="es">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://altagracia.co" layout="button_count" show_faces="true" width="50" font="trebuchet ms"></fb:like></div>
+        <h3 style="padding-left:100px;">Regístrese para recibir premios y tragos GRATIS!<br>
+          <br>
+          &gt; Indispensable presentar tu Cédula para reclamar sorpresas.<br>
+          &gt; Oferta válida sólo
+el Viernes 11 de Marzo.<br>
+        </h3>
+        
+        <div class="ctrlHolder">
+          <strong>
+          <label for="name">Nombre Completo</label>
+          <input name="name" id="name" size="35" maxlength="50" type="text" class="textInput required"/>
+          </strong>
+          <p class="formHint"></p>
+        </div>
+        
+        <div class="ctrlHolder">
+          <strong>
+          <label for="email">E-mail</label>
+          <input name="email" id="email" size="35" maxlength="50" type="text" class="textInput required validateEmail"/>
+          </strong>
+          <p class="formHint"></p>
+        </div>
+        
+        <div class="ctrlHolder">
+          <label for="cedula"><strong>Cédula</strong></label>
+          <input name="cedula" id="cedula" size="35" maxlength="50" type="text" class="textInput required"/>
+          <p class="formHint"></p>
+        </div>
+        
+        <div class="ctrlHolder">
+          <label for="nacimiento"><strong>Fecha de Nacimiento</strong></label>
+          <input name="nacimiento" id="nacimiento" size="35" maxlength="50" type="date"/>
+        </div>
+        
+        <div class="ctrlHolder">
+          <label for="telefono"><strong>Teléfono</strong></label>
+          <input name="telefono" id="telefono" size="35" maxlength="50" type="text" class="textInput required"/>
+          <p class="formHint"></p>
+        </div>
+        
+        <div class="ctrlHolder">
+          <strong>
+          <label for="actividad">Oficio / Actividad</label>
+          <input name="actividad" id="actividad" size="35" maxlength="50" type="text" class="textInput required"/>
+          </strong>
+          <p class="formHint"></p>
+        </div>
+        
+        
+        <div class="ctrlHolder">
+          <p class="label"><strong>Género</strong></p>
+          <ul class="blockLabels">
+            <li><label for="genero"><input type="radio" name="genero" class="required" value="masculino"> Masculino</label></li>
+            <li><label for="genero"><input type="radio" name="genero" class="required" value="femenino"> Femenino</label></li>
+          </ul>
+          <p class="formHint"></p>
+        </div>
+        
+      </fieldset>
+      
+      <div class="buttonHolder">
+        <div align="center"><button type="submit" class="primaryAction">Enviar</button></div>
+      </div>
+      
+      </form>
+    
+    <div id="footer">
+      <p><img src="img/banner.png" width="500" height="76"><br>
+        <br>
+  <a href="http://altagracia.co">Altagracia.co</a>  |  info@altagracia.co</p>
+      </div>
+  </div>
+  </body>
+</html>
